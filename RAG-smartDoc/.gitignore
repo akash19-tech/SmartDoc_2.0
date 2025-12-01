@@ -1,0 +1,68 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Chroma vector database (local only)
+chroma_db/
+chroma_db.sqlite3
+*.db
+
+# Streamlit
+.streamlit/
+.stcache/
+.stconfig.toml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
