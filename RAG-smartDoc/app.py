@@ -35,7 +35,12 @@ def init_embeddings():
 
 @st.cache_resource
 def init_llm():
-    """Initialize Grok LLM via Groq API"""
+    """Initialize Groq LLM via Groq API"""
+    # Try getting key from Streamlit secrets first, then environment variable
+    api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
+    
+    if not api_key:
+        raise ValueError("GROQ_API_KEY not found. Please check your .env file or Streamlit secrets.")
     return ChatGroq(
         groq_api_key=os.getenv("GROQ_API_KEY"),
         model_name="llama-3.3-70b-versatile",
