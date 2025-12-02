@@ -55,3 +55,7 @@ RAG-smartDoc/
 - └── README.md # Project documentation
 
 Contributions, issues, and feature requests are welcome! Feel free to check the (https://github.com/akash19-tech/SmartDoc_2.0).
+
+## Deployment
+
+(https://smartdoc20-jxpy2oc5flrg7rskmnauik.streamlit.app/)
