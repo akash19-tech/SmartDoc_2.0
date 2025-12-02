@@ -47,12 +47,12 @@ Create a `.env` file in the root directory and add your Groq API key:
 
 ## 📂 Project Structure
 
-rag-multi-doc-app/
-├── app.py # Main application logic
-├── requirements.txt # Project dependencies
-├── .env # API keys (not committed)
-├── .gitignore # Ignored files
-└── README.md # Project documentation
+RAG-smartDoc/
+    ├── app.py # Main application logic
+    ├── requirements.txt # Project dependencies
+    ├── .env # API keys (not committed)
+    ├── .gitignore # Ignored files
+    └── README.md # Project documentation
 
 Contributions, issues, and feature requests are welcome! Feel free to check the (https://github.com/akash19-tech/SmartDoc_2.0).
 
